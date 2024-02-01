@@ -1,0 +1,426 @@
+.bannerBackground,
+.bannerGradient {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.bannerGradient {
+  top: 0;
+  background: linear-gradient(78.78deg, #114f8b 5.2%, #2a9ad7);
+  height: 639.9px;
+}
+.bannerBackground {
+  top: 0.4px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 640px;
+  object-fit: cover;
+}
+.findTheBest,
+.letsExplore {
+  align-self: stretch;
+  height: 67px;
+  position: relative;
+  line-height: 67px;
+  display: inline-block;
+}
+.findTheBest {
+  height: 32px;
+  font-size: var(--font-size-5xl);
+  line-height: 32px;
+  font-family: var(--typography-body-1);
+}
+.title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.searchFlights {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.radio,
+.radio1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.radio1 {
+  left: 106px;
+}
+.flightType {
+  width: 216.5px;
+  position: relative;
+  height: 38px;
+}
+.flightOptions,
+.formTitleGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.formTitleGroup {
+  align-self: stretch;
+  overflow: hidden;
+  padding: var(--padding-8xs);
+  gap: var(--gap-8xs);
+}
+.departureField {
+  align-self: stretch;
+  flex: 1;
+}
+.arrival {
+  height: 12px;
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 12px;
+  display: inline-block;
+}
+.labelContainer {
+  background-color: var(--background-paper);
+  height: 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs);
+  box-sizing: border-box;
+}
+.avatar,
+.op {
+  align-items: center;
+  justify-content: center;
+}
+.op {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 166%;
+  display: flex;
+}
+.avatar {
+  width: 24px;
+  border-radius: var(--br-45xl);
+  background-color: var(--color-silver);
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  flex-direction: row;
+}
+.chip1 {
+  position: relative;
+  letter-spacing: 0.16px;
+  line-height: 18px;
+}
+.typography {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-7xs);
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--text-primary);
+}
+.cancelIcon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.chip,
+.container {
+  display: flex;
+  justify-content: flex-start;
+}
+.container {
+  border-radius: var(--br-base);
+  background-color: var(--color-gainsboro-200);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-9xs);
+}
+.chip {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.avatar1,
+.op1 {
+  align-items: center;
+  justify-content: center;
+}
+.op1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 166%;
+  display: flex;
+}
+.avatar1 {
+  width: 24px;
+  border-radius: var(--br-45xl);
+  background-color: var(--color-silver);
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  flex-direction: row;
+}
+.chip3 {
+  position: relative;
+  letter-spacing: 0.16px;
+  line-height: 18px;
+}
+.typography1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-7xs);
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--text-primary);
+}
+.cancelIcon1 {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.container1 {
+  border-radius: var(--br-base);
+  background-color: var(--color-gainsboro-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+}
+.chip2,
+.muiautocompletetag {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.chip2 {
+  display: flex;
+  flex-direction: column;
+}
+.muiautocompletetag {
+  display: none;
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.losAngelesLa {
+  height: 24px;
+  flex: 1;
+  position: relative;
+  font-size: var(--typography-body-1-size);
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  color: var(--text-primary);
+  text-align: left;
+  display: inline-block;
+}
+.active,
+.input {
+  align-self: stretch;
+}
+.active {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0;
+  gap: var(--gap-5xs);
+  text-align: center;
+  color: var(--theme-gray-700);
+}
+.input {
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  height: 56px;
+  padding: 0 var(--padding-xs);
+}
+.arrivalField,
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.arrivalField,
+.selectoutlined {
+  align-self: stretch;
+  flex: 1;
+}
+.inputsRow {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs);
+  gap: var(--gap-3xs);
+}
+.button {
+  width: 147px;
+  height: 26px;
+  position: relative;
+  letter-spacing: 0.46px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+}
+.buttonGroup,
+.searchFlightsButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.searchFlightsButton {
+  width: 164px;
+  height: 56px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-orange-200);
+  overflow: hidden;
+  flex-shrink: 0;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.searchFlightsButton:hover {
+  background-color: var(--color-darkorange);
+}
+.buttonGroup {
+  padding: var(--padding-8xs);
+  text-align: center;
+  font-size: var(--components-button-large-size);
+  color: var(--background-paper);
+}
+.formInputsRow {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-300);
+}
+.searchContainer,
+.searchForm {
+  display: flex;
+  flex-direction: column;
+}
+.searchForm {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--background-paper);
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl);
+  gap: var(--gap-9xs);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-600);
+  font-family: var(--typography-body-1);
+}
+.searchContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 640px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-121xl);
+  box-sizing: border-box;
+  gap: var(--gap-24xl);
+}
+.searchSection {
+  align-self: stretch;
+  height: 640px;
+  position: relative;
+  text-align: center;
+  font-size: var(--font-size-42xl);
+  color: var(--background-paper);
+  font-family: var(--font-baloo-bhai);
+}
+@media screen and (max-width: 1100px) {
+  .inputsRow {
+    width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+  .searchFlightsButton {
+    margin-right: auto;
+  }
+  .buttonGroup {
+    width: 100%;
+    text-align: left;
+  }
+  .formInputsRow,
+  .searchForm {
+    flex-direction: column;
+  }
+  .searchContainer {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 650px) {
+  .letsExplore {
+    font-size: var(--font-size-23xl);
+    line-height: 48px;
+  }
+  .searchFlights {
+    width: 100%;
+    padding-bottom: var(--padding-3xs);
+    margin-bottom: 6px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #eaeaea;
+    flex: unset;
+    align-self: stretch;
+  }
+  .flightType {
+    width: 100% !important;
+  }
+  .flightOptions {
+    width: 100%;
+  }
+  .formTitleGroup {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .arrivalField,
+  .departureField,
+  .selectoutlined {
+    flex: unset;
+    align-self: stretch;
+  }
+  .inputsRow {
+    flex-direction: column;
+  }
+  .searchFlightsButton {
+    width: 100% !important;
+  }
+  .searchForm {
+    margin-top: 20px;
+  }
+}

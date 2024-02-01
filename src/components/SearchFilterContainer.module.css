@@ -1,0 +1,142 @@
+.results {
+  width: 219.4px;
+  position: relative;
+  letter-spacing: 0.26px;
+  display: inline-block;
+}
+.frameChild {
+  width: 228px;
+  position: relative;
+  max-height: 100%;
+}
+.resultsParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 228px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.resultsSummary {
+  width: 228px;
+  position: relative;
+  height: 47px;
+  font-size: var(--font-size-xl);
+}
+.results1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.26px;
+  display: inline-block;
+  width: 65.3px;
+}
+.component1formcheckbox {
+  position: absolute;
+  top: 50px;
+  left: 0;
+}
+.component1formcheckbox1 {
+  position: absolute;
+  top: 86px;
+  left: 0;
+}
+.stops {
+  width: 296.6px;
+  position: relative;
+  height: 106px;
+}
+.results2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.26px;
+  display: inline-block;
+  width: 189px;
+}
+.component1formcheckbox2 {
+  position: absolute;
+  top: 50px;
+  left: 0;
+}
+.component1formcheckbox3 {
+  position: absolute;
+  top: 86px;
+  left: 0;
+}
+.bookingOptions {
+  width: 221px;
+  position: relative;
+  height: 106px;
+}
+.results3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.26px;
+  display: inline-block;
+  width: 198px;
+}
+.component1formcheckbox4 {
+  position: absolute;
+  top: 50px;
+  left: 0;
+}
+.component1formcheckbox5 {
+  position: absolute;
+  top: 86px;
+  left: 0;
+}
+.flightExperience {
+  width: 310.8px;
+  position: relative;
+  height: 106px;
+}
+.seperatorIcon {
+  width: 228px;
+  position: relative;
+  max-height: 100%;
+}
+.results4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.26px;
+  display: inline-block;
+  width: 87.8px;
+}
+.component1formcheckbox6 {
+  position: absolute;
+  top: 50px;
+  left: 0;
+}
+.component1formcheckbox7 {
+  position: absolute;
+  top: 86px;
+  left: 0;
+}
+.airlines {
+  width: 181px;
+  position: relative;
+  height: 106px;
+}
+.searchFilters {
+  width: 253px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-20xl);
+  text-align: left;
+  font-size: var(--headline-6-bold-size);
+  color: var(--color-dimgray-300);
+  font-family: var(--typography-body-1);
+}
+@media screen and (max-width: 1200px) {
+  .searchFilters {
+    display: none;
+  }
+}

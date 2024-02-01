@@ -1,0 +1,214 @@
+.bestProjectOf,
+.ourRecentProjects {
+  position: relative;
+  line-height: 120%;
+}
+.ourRecentProjects {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.customersStudentsGroupChild {
+  height: 45px;
+  width: 45px;
+  position: relative;
+  min-height: 45px;
+}
+.wrapperGroup11Child {
+  height: 100%;
+  width: 100%;
+  min-height: 45px;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 13px;
+  transform: scale(1.667);
+}
+.wrapperGroup11 {
+  height: 45px;
+  width: 45px;
+  position: relative;
+  min-height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.customersStudentsGroup,
+.sobhaHearlandVillas {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.sobhaHearlandVillas {
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.getQuoteButton {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--white);
+  border: 1px solid var(--gray-color);
+  box-sizing: border-box;
+  opacity: 0.45;
+}
+.renderingIsometricBox {
+  align-self: stretch;
+  height: 263px;
+  position: relative;
+  border-radius: var(--br-sm);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.sobhaHearlandIi {
+  position: relative;
+  font-size: var(--font-size-2xl);
+  line-height: 120%;
+  font-weight: 600;
+  z-index: 1;
+}
+.loremIpsumDolor {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  z-index: 1;
+}
+.starinactivebigIcon,
+.starinactivebigIcon1,
+.starinactivebigIcon2,
+.starinactivebigIcon3,
+.starinactivebigIcon4 {
+  height: 17.3px;
+  width: 16.6px;
+  position: relative;
+}
+.stars {
+  height: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+  z-index: 1;
+}
+.div {
+  position: relative;
+  line-height: 120%;
+  z-index: 1;
+}
+.emptyStar,
+.questionMarkIcon {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.emptyStar {
+  flex-direction: row;
+  padding: 0 var(--padding-11xs) 0 0;
+  gap: var(--gap-mini);
+}
+.questionMarkIcon {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-mid);
+  max-width: 100%;
+}
+.helpText {
+  width: 377px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+}
+.getQuoteButtonParent,
+.helpText,
+.subscribeNewsletterFrame {
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.getQuoteButtonParent {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 var(--padding-6xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-5xl);
+}
+.subscribeNewsletterFrame {
+  align-self: stretch;
+  display: grid;
+  flex-direction: row;
+  gap: var(--gap-xl);
+  grid-template-columns: repeat(3, minmax(335px, 1fr));
+  font-size: var(--typography-body-1-size);
+}
+.recentProjectsGroup,
+.starRatingGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+  max-width: 100%;
+  font-size: var(--font3-size);
+}
+.starRatingGroup {
+  align-items: flex-start;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--typography-body-1-size);
+  color: var(--color-black);
+  font-family: var(--font);
+}
+@media screen and (max-width: 1200px) {
+  .subscribeNewsletterFrame {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(335px, 581px));
+  }
+}
+@media screen and (max-width: 1050px) {
+  .ourRecentProjects {
+    font-size: var(--font-size-21xl);
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .sobhaHearlandVillas {
+    flex-wrap: wrap;
+  }
+  .subscribeNewsletterFrame {
+    grid-template-columns: minmax(335px, 1fr);
+  }
+  .recentProjectsGroup {
+    gap: var(--gap-3xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .ourRecentProjects {
+    font-size: var(--font-size-11xl);
+    line-height: 36px;
+  }
+  .sobhaHearlandIi {
+    font-size: var(--font-size-mid);
+    line-height: 20px;
+  }
+}

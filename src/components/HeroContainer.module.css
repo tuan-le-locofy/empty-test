@@ -1,0 +1,11 @@
+.heroSection {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-42xl);
+  color: var(--background-paper);
+  font-family: var(--font-baloo-bhai);
+}

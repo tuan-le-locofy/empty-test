@@ -1,0 +1,10 @@
+.hotelsPage {
+  width: 100%;
+  position: relative;
+  background-color: var(--background-paper);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}

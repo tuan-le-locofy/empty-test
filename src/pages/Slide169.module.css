@@ -1,0 +1,308 @@
+.dualshock4 {
+  position: absolute;
+  top: 256px;
+  left: 289px;
+  font-size: var(--font-size-77xl);
+  text-transform: capitalize;
+  font-family: var(--font-rubik-mono-one);
+  color: rgba(0, 0, 0, 0.05);
+}
+.slide1691Child {
+  position: absolute;
+  top: 192px;
+  left: 1086px;
+  border-radius: var(--br-21xl) 0 0 var(--br-21xl);
+  background: linear-gradient(180deg, #ec368d, #d72828);
+  width: 834px;
+  height: 696px;
+}
+.slide1691Inner,
+.slide1691Item {
+  position: absolute;
+  top: 474px;
+  left: 1829px;
+  width: 18px;
+  height: 131px;
+}
+.slide1691Inner {
+  top: 933px;
+  left: 856px;
+  width: 155px;
+  height: 15px;
+}
+.div {
+  position: absolute;
+  top: 234px;
+  left: 1540px;
+  font-size: var(--font-size-77xl);
+  text-transform: capitalize;
+  font-family: var(--font-rubik-mono-one);
+  color: rgba(255, 255, 255, 0.3);
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 33px;
+  width: 80px;
+  height: 80px;
+}
+.addToCart {
+  position: absolute;
+  top: 97px;
+  left: 0;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.groupParent {
+  position: absolute;
+  top: 710px;
+  left: 1549px;
+  width: 146px;
+  height: 126px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.vectorIcon {
+  position: absolute;
+  height: 4.09%;
+  width: 2.25%;
+  top: 4.72%;
+  right: 4.32%;
+  bottom: 91.19%;
+  left: 93.43%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.akarIconsshoppingBag,
+.groupIcon,
+.vectorIcon1 {
+  position: absolute;
+  top: 53px;
+  left: 1704px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+.groupIcon,
+.vectorIcon1 {
+  height: 3.24%;
+  width: 1.82%;
+  top: 5.19%;
+  right: 13.85%;
+  bottom: 91.57%;
+  left: 84.32%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.groupIcon {
+  height: 4.63%;
+  width: 2.6%;
+  top: 5.09%;
+  right: 93.18%;
+  bottom: 90.28%;
+  left: 4.22%;
+}
+.dualshock41,
+.ps4V2 {
+  margin: 0;
+}
+.ps4V2DualshockContainer {
+  position: absolute;
+  top: 418px;
+  left: 197px;
+  font-size: var(--font-size-29xl);
+  text-transform: capitalize;
+}
+.wirelessControllerFor {
+  margin: 0;
+  line-height: 35px;
+  font-weight: 600;
+}
+.compatibilitycentric {
+  margin: 0;
+  font-size: var(--font-size-xl);
+  line-height: 30px;
+  font-weight: 500;
+}
+.wirelessControllerForContainer {
+  position: absolute;
+  top: 549px;
+  left: 197px;
+  text-transform: capitalize;
+  color: #727272;
+  display: inline-block;
+  width: 497px;
+}
+.div1,
+.rectangleIcon {
+  position: absolute;
+  left: 197px;
+}
+.div1 {
+  top: 635px;
+  font-size: 36px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.rectangleIcon {
+  top: 738px;
+  border-radius: 20px;
+  width: 395px;
+  height: 88px;
+}
+.buyNow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-transform: capitalize;
+}
+.groupItem {
+  position: absolute;
+  top: 14px;
+  left: 148px;
+  max-height: 100%;
+  width: 73px;
+}
+.buyNowParent {
+  position: absolute;
+  top: 768px;
+  left: 284px;
+  width: 221px;
+  height: 29px;
+  color: var(--background-paper);
+}
+.rectangleDiv {
+  position: absolute;
+  top: 418px;
+  left: 113px;
+  background: linear-gradient(180deg, #ec368d, #d72828);
+  width: 18px;
+  height: 211px;
+}
+.next,
+.prev {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.next {
+  left: 216px;
+  background: linear-gradient(90deg, #ff51d9, #f84872);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.prevParent {
+  position: absolute;
+  top: 920px;
+  left: 259px;
+  width: 271px;
+  height: 24px;
+  font-size: var(--font-size-xl);
+}
+.bxbxlFacebookIcon,
+.bytesizetwitterIcon,
+.cibinstagramIcon {
+  position: absolute;
+  top: 0;
+  left: 220px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.bytesizetwitterIcon,
+.cibinstagramIcon {
+  left: 0;
+}
+.bytesizetwitterIcon {
+  left: 110px;
+}
+.bxbxlFacebookParent,
+.lineDiv {
+  position: absolute;
+  top: 988px;
+  left: 1573px;
+  width: 250px;
+  height: 30px;
+}
+.lineDiv {
+  top: 1001.5px;
+  left: 1149.5px;
+  border-top: 3px solid #b3b3b3;
+  box-sizing: border-box;
+  width: 366px;
+  height: 3px;
+}
+.image1RemovebgPreview1Icon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 15px;
+  top: 20px;
+  transform: scale(1.042);
+}
+.wrapperImage1RemovebgPrevi {
+  position: absolute;
+  top: -228px;
+  left: 375px;
+  width: 1422px;
+  height: 1574px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.playstation {
+  position: absolute;
+  top: 65px;
+  left: 151px;
+  text-transform: capitalize;
+  font-weight: 800;
+  font-family: var(--font-outfit);
+  background: linear-gradient(90deg, #ffcc17, #1796cc 50%, #e90154);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.vrAccessories {
+  left: 826px;
+}
+.gameControllers,
+.mediaRemotes,
+.others,
+.vrAccessories {
+  position: absolute;
+  top: 65px;
+  font-size: var(--button-size);
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.gameControllers {
+  left: 554px;
+  background: linear-gradient(180deg, #ec368d, #d72828);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.mediaRemotes,
+.others {
+  left: 1059px;
+}
+.others {
+  left: 1289px;
+}
+.slide1691 {
+  width: 100%;
+  position: relative;
+  border-radius: 30px;
+  background-color: var(--background-paper);
+  box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.25);
+  border: 20px solid var(--color-black);
+  box-sizing: border-box;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}

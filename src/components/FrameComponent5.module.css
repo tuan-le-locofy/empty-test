@@ -1,0 +1,229 @@
+.frameProjectsChild {
+  height: 90px;
+  width: 1380px;
+  position: relative;
+  border-radius: var(--br-51xl);
+  background-color: var(--gray-2);
+  display: none;
+  max-width: 100%;
+}
+.groupHeader {
+  position: absolute;
+  top: 11.5px;
+  left: 0;
+  border-radius: var(--br-11xs);
+  background-color: var(--color-gray-700);
+  width: 16px;
+  height: 16px;
+}
+.frameChild {
+  position: absolute;
+  top: 15.5px;
+  left: 5px;
+  background-color: var(--background-paper);
+  width: 6px;
+  height: 9px;
+  z-index: 1;
+}
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xl);
+  width: 16px;
+  height: 11.5px;
+}
+.groupHeaderParent {
+  height: 27.5px;
+  width: 16px;
+  position: relative;
+}
+.buildIcon {
+  align-self: stretch;
+  height: 17.1px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameListing {
+  height: 16px;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.frameAgents,
+.frameListing,
+.logo {
+  display: flex;
+  justify-content: flex-start;
+}
+.logo {
+  width: 94px;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-3xs);
+  z-index: 1;
+}
+.frameAgents {
+  width: 256px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+}
+.searchBarChild {
+  height: 60px;
+  width: 571px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--white);
+  display: none;
+  max-width: 100%;
+}
+.aboutUs {
+  flex: 1;
+  position: relative;
+  line-height: 120%;
+  white-space: nowrap;
+  z-index: 2;
+}
+.projects {
+  flex: 1;
+}
+.agents,
+.projects {
+  position: relative;
+  line-height: 120%;
+  z-index: 2;
+}
+.services {
+  flex: 1;
+}
+.listings,
+.services {
+  position: relative;
+  line-height: 120%;
+  z-index: 2;
+}
+.vuesaxlinearsearchNormalIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  z-index: 2;
+}
+.searchBar {
+  width: 572px;
+  border-radius: var(--br-21xl);
+  background-color: var(--white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-lg) var(--padding-15xl) var(--padding-lg)
+    var(--padding-3xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.otherServices {
+  position: relative;
+  line-height: 120%;
+  white-space: nowrap;
+  z-index: 1;
+}
+.vuesaxlineararrowRight {
+  margin: 0;
+  height: 18px;
+  width: 18px;
+  position: relative;
+  z-index: 1;
+}
+.groupWelcomeText,
+.manageYourProperty {
+  display: flex;
+  justify-content: flex-start;
+}
+.manageYourProperty {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-4xs);
+}
+.groupWelcomeText {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.contactUs {
+  position: relative;
+  font-size: var(--typography-body-1-size);
+  line-height: 120%;
+  font-family: var(--font);
+  color: var(--text-heading-color);
+  text-align: left;
+}
+.contactUsFrame,
+.enterEmail,
+.frameProjects {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.enterEmail {
+  cursor: pointer;
+  border: 1px solid var(--gray-color);
+  padding: var(--padding-2xl) var(--padding-11xl) var(--padding-xl)
+    var(--padding-15xl);
+  background-color: var(--white);
+  border-radius: var(--br-21xl);
+  overflow: hidden;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.enterEmail:hover {
+  background-color: var(--color-gainsboro-100);
+  border: 1px solid var(--color-gray-600);
+  box-sizing: border-box;
+}
+.contactUsFrame,
+.frameProjects {
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+}
+.frameProjects {
+  height: 90px;
+  border-radius: var(--br-51xl);
+  background-color: var(--gray-2);
+  align-items: flex-start;
+  padding: var(--padding-smi) var(--padding-5xl) var(--padding-mini)
+    var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-61xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: left;
+  font-size: var(--typography-body-1-size);
+  color: var(--text-heading-color);
+  font-family: var(--font);
+}
+@media screen and (max-width: 1200px) {
+  .searchBar {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameProjects {
+    gap: var(--gap-21xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameProjects {
+    gap: var(--gap-xl);
+  }
+}

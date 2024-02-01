@@ -1,0 +1,64 @@
+.everythingShouldBe,
+.threeStepsThree {
+  position: relative;
+  line-height: 120%;
+}
+.everythingShouldBe {
+  margin: 0;
+  font-size: var(--font3-size);
+  font-weight: 600;
+  font-family: inherit;
+}
+.frameParent,
+.threeStepsFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-9xl);
+}
+.contactUsFrame {
+  width: 1307px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+  min-height: 389px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--typography-body-1-size);
+  color: var(--color-black);
+  font-family: var(--font);
+}
+@media screen and (max-width: 1200px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .everythingShouldBe {
+    font-size: var(--font-size-21xl);
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .contactUsFrame {
+    gap: var(--gap-3xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .everythingShouldBe {
+    font-size: var(--font-size-11xl);
+    line-height: 36px;
+  }
+}

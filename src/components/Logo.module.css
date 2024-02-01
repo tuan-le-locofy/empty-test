@@ -1,0 +1,58 @@
+.frameChild {
+  position: absolute;
+  top: 11.5px;
+  left: 0;
+  border-radius: var(--br-11xs);
+  background-color: var(--color-gray-700);
+  width: 16px;
+  height: 16px;
+}
+.frameItem {
+  position: absolute;
+  top: 15.5px;
+  left: 5px;
+  background-color: var(--background-paper);
+  width: 6px;
+  height: 9px;
+  z-index: 1;
+}
+.frameInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xl);
+  width: 16px;
+  height: 11.5px;
+}
+.rectangleParent {
+  height: 27.5px;
+  width: 16px;
+  position: relative;
+}
+.buildIcon {
+  align-self: stretch;
+  height: 17.1px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.buildArea,
+.logo {
+  display: flex;
+  justify-content: flex-start;
+}
+.buildArea {
+  height: 16px;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo {
+  width: 93.9px;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-3xs);
+}

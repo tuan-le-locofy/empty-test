@@ -1,0 +1,168 @@
+.subscribeSectionBackground {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 530px;
+  object-fit: cover;
+}
+.formTitle,
+.formTitleSubtext {
+  align-self: stretch;
+  position: relative;
+}
+.formTitleSubtext {
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.formTitle {
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray-400);
+}
+.formHeader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.fillInYour {
+  position: relative;
+  line-height: 34px;
+}
+.fillInYour,
+.formText,
+.input {
+  align-self: stretch;
+}
+.formText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.input {
+  border: 0;
+  background-color: transparent;
+  font-family: var(--typography-body-1);
+  font-size: var(--typography-body-1-size);
+  color: var(--color-gray-300);
+}
+.destinationNameInput {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.input1 {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+  font-family: var(--typography-body-1);
+  font-size: var(--typography-body-1-size);
+  color: var(--color-gray-300);
+}
+.nameInput {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button,
+.formFields,
+.nameInput {
+  display: flex;
+  flex-direction: column;
+}
+.formFields {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-orange-200);
+  width: 164px;
+  height: 56px;
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+}
+.button:hover {
+  background-color: var(--color-darkorange);
+}
+.form,
+.shareYourTravelsForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.form {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  background-color: var(--background-paper);
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.03);
+  border: 1px solid var(--color-whitesmoke-200);
+  align-items: flex-start;
+  padding: var(--padding-9xl) var(--padding-11xl);
+  gap: var(--gap-mid);
+  text-align: left;
+  color: var(--color-slategray-100);
+}
+.shareYourTravelsForm {
+  position: relative !important;
+  top: 52px;
+  left: auto !important;
+  width: 549px;
+  align-items: center;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  margin-left: auto;
+  margin-right: auto;
+}
+.subscribeSection {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--color-aliceblue);
+  height: 529px;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--button-size);
+  color: var(--color-cornflowerblue-300);
+  font-family: var(--typography-body-1);
+}
+@media screen and (max-width: 1100px) {
+  .shareYourTravelsForm {
+    padding: var(--padding-5xl) 0;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 650px) {
+  .button {
+    width: 100%;
+  }
+  .button:hover {
+    background-color: var(--color-peru);
+  }
+  .shareYourTravelsForm {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative !important;
+    left: auto !important;
+    width: 100%;
+  }
+}
